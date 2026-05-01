@@ -23,15 +23,15 @@ use LogicException;
  */
 class AlterTable extends TableStatement
 {
-    public const string ALGO_COPY = 'COPY';
-    public const string ALGO_DEFAULT = 'DEFAULT';
-    public const string ALGO_INPLACE = 'INPLACE';
-    public const string ALGO_INSTANT = 'INSTANT';
-    public const string ALGO_NOCOPY = 'NOCOPY';
-    public const string LOCK_DEFAULT = 'DEFAULT';
-    public const string LOCK_EXCLUSIVE = 'EXCLUSIVE';
-    public const string LOCK_NONE = 'NONE';
-    public const string LOCK_SHARED = 'SHARED';
+    public const ALGO_COPY = 'COPY';
+    public const ALGO_DEFAULT = 'DEFAULT';
+    public const ALGO_INPLACE = 'INPLACE';
+    public const ALGO_INSTANT = 'INSTANT';
+    public const ALGO_NOCOPY = 'NOCOPY';
+    public const LOCK_DEFAULT = 'DEFAULT';
+    public const LOCK_EXCLUSIVE = 'EXCLUSIVE';
+    public const LOCK_NONE = 'NONE';
+    public const LOCK_SHARED = 'SHARED';
 
     /**
      * @return static

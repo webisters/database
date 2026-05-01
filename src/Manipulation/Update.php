@@ -33,11 +33,11 @@ class Update extends Statement
      *
      * @see https://mariadb.com/kb/en/insert-ignore/
      */
-    public const string OPT_IGNORE = 'IGNORE';
+    public const OPT_IGNORE = 'IGNORE';
     /**
      * @see https://mariadb.com/kb/en/high_priority-and-low_priority/
      */
-    public const string OPT_LOW_PRIORITY = 'LOW_PRIORITY';
+    public const OPT_LOW_PRIORITY = 'LOW_PRIORITY';
 
     protected function renderOptions() : ?string
     {

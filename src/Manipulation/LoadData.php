@@ -26,15 +26,15 @@ class LoadData extends Statement
     /**
      * @see https://mariadb.com/kb/en/high_priority-and-low_priority/
      */
-    public const string OPT_LOW_PRIORITY = 'LOW_PRIORITY';
+    public const OPT_LOW_PRIORITY = 'LOW_PRIORITY';
     /**
      * @see https://mariadb.com/kb/en/load-data-infile/#priority-and-concurrency
      */
-    public const string OPT_CONCURRENT = 'CONCURRENT';
+    public const OPT_CONCURRENT = 'CONCURRENT';
     /**
      * @see https://mariadb.com/kb/en/load-data-infile/#load-data-local-infile
      */
-    public const string OPT_LOCAL = 'LOCAL';
+    public const OPT_LOCAL = 'LOCAL';
 
     protected function renderOptions() : ?string
     {

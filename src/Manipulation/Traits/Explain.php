@@ -26,15 +26,15 @@ trait Explain
     /**
      * @see https://mariadb.com/kb/en/explain/#explain-extended
      */
-    public const string EXP_EXTENDED = 'EXTENDED';
+    public const EXP_EXTENDED = 'EXTENDED';
     /**
      * https://mariadb.com/kb/en/partition-pruning-and-selection/.
      */
-    public const string EXP_PARTITIONS = 'PARTITIONS';
+    public const EXP_PARTITIONS = 'PARTITIONS';
     /**
      * @see https://mariadb.com/kb/en/explain-format-json/
      */
-    public const string EXP_FORMAT_JSON = 'FORMAT=JSON';
+    public const EXP_FORMAT_JSON = 'FORMAT=JSON';
 
     /**
      * EXPLAIN provides information about statements.

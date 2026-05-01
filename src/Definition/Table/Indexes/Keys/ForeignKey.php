@@ -26,24 +26,24 @@ final class ForeignKey extends ConstraintKey
      * For example, if a parent row is deleted, the child row is also deleted;
      * if a parent row's ID changes, the child row's ID will also change.
      */
-    public const string OPT_CASCADE = 'CASCADE';
+    public const OPT_CASCADE = 'CASCADE';
     /**
      * Synonym for RESTRICT.
      *
      * @see ForeignKey::OPT_RESTRICT
      */
-    public const string OPT_NO_ACTION = 'NO ACTION';
+    public const OPT_NO_ACTION = 'NO ACTION';
     /**
      * The change on the parent table is prevented.
      * The statement terminates with a 1451 error (SQLSTATE '2300').
      * This is the default behavior for both ON DELETE and ON UPDATE.
      */
-    public const string OPT_RESTRICT = 'RESTRICT';
+    public const OPT_RESTRICT = 'RESTRICT';
     /**
      * The change is allowed, and the child row's foreign key columns are set
      * to NULL.
      */
-    public const string OPT_SET_NULL = 'SET NULL';
+    public const OPT_SET_NULL = 'SET NULL';
     protected string $type = 'FOREIGN KEY';
     protected ?string $referenceTable = null;
     /**

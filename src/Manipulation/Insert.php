@@ -29,21 +29,21 @@ class Insert extends Statement
     /**
      * @see https://mariadb.com/kb/en/insert-delayed/
      */
-    public const string OPT_DELAYED = 'DELAYED';
+    public const OPT_DELAYED = 'DELAYED';
     /**
      * Convert errors to warnings, which will not stop inserts of additional rows.
      *
      * @see https://mariadb.com/kb/en/insert-ignore/
      */
-    public const string OPT_IGNORE = 'IGNORE';
+    public const OPT_IGNORE = 'IGNORE';
     /**
      * @see https://mariadb.com/kb/en/high_priority-and-low_priority/
      */
-    public const string OPT_HIGH_PRIORITY = 'HIGH_PRIORITY';
+    public const OPT_HIGH_PRIORITY = 'HIGH_PRIORITY';
     /**
      * @see https://mariadb.com/kb/en/high_priority-and-low_priority/
      */
-    public const string OPT_LOW_PRIORITY = 'LOW_PRIORITY';
+    public const OPT_LOW_PRIORITY = 'LOW_PRIORITY';
 
     protected function renderOptions() : ?string
     {

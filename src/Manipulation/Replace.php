@@ -28,11 +28,11 @@ class Replace extends Statement
     /**
      * @see https://mariadb.com/kb/en/insert-delayed/
      */
-    public const string OPT_DELAYED = 'DELAYED';
+    public const OPT_DELAYED = 'DELAYED';
     /**
      * @see https://mariadb.com/kb/en/high_priority-and-low_priority/
      */
-    public const string OPT_LOW_PRIORITY = 'LOW_PRIORITY';
+    public const OPT_LOW_PRIORITY = 'LOW_PRIORITY';
 
     /**
      * @param string $table
